@@ -1,0 +1,29 @@
+body {
+  background-image: url('../imagenes/fondo.png');
+}
+
+canvas {
+  margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+}
+
+.boton-recargar {
+  margin: auto;
+  display: flex;
+  border: none;
+  visibility: hidden;
+  cursor: pointer;
+  margin-top: 20px;
+  color: purple;
+  padding: 10px;
+  background: #00d426;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.boton-recargar:hover {
+  background: #009b1c;
+}
